@@ -1,7 +1,7 @@
 # unpuzzle-new
-异型拼图 新版本 后端会源源不断采用新技术
-数据库使用了Redis+Mysql
-最初版本：https://github.com/pumpkin12135/unpuzzle
+异型拼图 新版本 后端会源源不断采用新技术  
+数据库使用了Redis+Mysql  
+最初版本：https://github.com/pumpkin12135/unpuzzle  
 ### 开发文档
 :fire:https://kj4o70d37z.feishu.cn/docs/doccnqkWeBn2WMChoDMqAyo0TBc
 ### 实现效果
