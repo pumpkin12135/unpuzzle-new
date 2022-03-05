@@ -964,10 +964,6 @@ input {
 }
 
 /*全局设置*/
-html, body, #app {
-  height: 99%;
-}
-
 /*滚动条的宽度*/
 ::-webkit-scrollbar {
   width: 9px;
