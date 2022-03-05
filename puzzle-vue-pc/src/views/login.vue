@@ -134,8 +134,4 @@ div.el-textarea {
   width: 48px;
   margin-left: 55%;
 }
-
-html, body, #app {
-  height: 99%;
-}
 </style>
