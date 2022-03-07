@@ -65,7 +65,8 @@ export default {
                   Store.src = res.data.data.imgSrc
                   Store.answer = res.data.data.answer
                   Store.puzzle_group = res.data.data.puzzleG
-                  return this.$router.push('/puzzle')
+                  //这里如果是第一次登录的话 就跳转到规则页面
+                  return this.$router.push('/rule')
                 }
             )
           }
@@ -82,7 +83,7 @@ export default {
   text-align: center;
   color: white;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 0;
   bottom: 0;
   right: 0;
@@ -134,4 +135,5 @@ div.el-textarea {
   width: 48px;
   margin-left: 55%;
 }
+
 </style>

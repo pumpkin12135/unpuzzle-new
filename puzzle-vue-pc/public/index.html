@@ -7,8 +7,8 @@
     <!-- 禁止缩放-->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- 看板娘 -->
-    <script type="text/javascript" src="./live2dw/lib/L2Dwidget.min.js"></script>
+    <!-- 看板娘  这里会产生跨域问题 但是script里面的src允许跨域加载问题，但是app.vue里面就得修改了-->
+    <script type="text/javascript" src="http://106.12.119.247/live2dw/lib/L2Dwidget.min.js"></script>
 </head>
 <body>
 <noscript>
