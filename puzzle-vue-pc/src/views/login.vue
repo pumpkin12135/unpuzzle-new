@@ -53,7 +53,7 @@ export default {
       this.$axios.post('http://106.12.119.247:8081/user/login', ruleForm).then(res => {   //TODO 注意修改为自己的
             //console.log(res.data)
             //Store.id = res.data.data.id
-            Store.username = res.data.data.username;
+            Store.username = ruleForm.username;
             Store.status = res.data.data;
             Store.first = res.data.data;
 
