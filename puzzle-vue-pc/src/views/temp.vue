@@ -75,7 +75,7 @@
 import Store from '@/store/store';
 
 export default {
-  name: 'Puzzle',
+  name: 'Temp',
   inject: ['reload'],
   data() {
     return {
@@ -343,6 +343,7 @@ export default {
             el.style.left = toLeft * 60 + marginleft + 'px'
             el.style.top = toTop * 60 + margintop + 'px'
           }
+
         }
       }
     },

@@ -74,20 +74,20 @@ export default {
   },
   mounted() {
     if(Store.status != 1){   //如果不是第一次登录则 则填充颜色
-      this.rule1 = '#9bdc28';
-      this.rule2 = '#03a9f4';
-      this.rule3 = '#e91e63';
+      this.rule1 = '#43CF7C';
+      this.rule2 = '#5679CB';
+      this.rule3 = '#D43030';
     }
   },
   methods: {
     light1(){
-      this.rule1 = '#9bdc28';
+      this.rule1 = '#43CF7C';
     },
     light2(){
-      this.rule2 = '#03a9f4';
+      this.rule2 = '#5679CB';
     },
     light3(){
-      this.rule3 = '#e91e63';
+      this.rule3 = '#D43030';
     },
     open6(){
       this.$notify.error({
@@ -268,8 +268,8 @@ body {
   opacity: 0;
   transform: translateY(50px);
   transition: 0.5s;
-  box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.1),
-  -18px -18px 30px rgba(255, 255, 255, 1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1),
+  -10px -10px 20px rgba(255, 255, 255, 1);
   border-radius: 50px;
 }
 
@@ -284,8 +284,8 @@ body {
 .container a:hover{
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
   0px 0px 0px rgba(255, 255, 255, 0.8),
-  inset 18px 18px 30px rgba(0, 0, 0, 0.1),
-  inset -18px -18px 30px rgba(255, 255, 255, 1);
+  inset 10px 10px 20px rgba(0, 0, 0, 0.1),
+  inset -10px -10px 20px rgba(255, 255, 255, 1);
   transition: box-shadow .1s ease-out;
 }
 
