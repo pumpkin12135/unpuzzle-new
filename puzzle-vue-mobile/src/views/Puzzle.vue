@@ -853,6 +853,7 @@ div.el-dialog {
 .img1 {
   width: 120px;
   height: 200px;
+  margin-left: 40px;
   -webkit-user-drag: none; /*图片不可被拖动*/
 }
 
@@ -939,67 +940,8 @@ div.el-dialog {
   z-index: -1;
 }
 
-.thumb,
-input {
-  width: 200px;
-  height: 150px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-  -webkit-user-drag: none; /*图片不可被拖动*/
-}
-
-input {
-  opacity: 0;
-}
-
-@keyframes checked {
-  50% {
-    box-shadow: 0 0 20px #ffff00;
-  }
-
-  to {
-    box-shadow: none;
-  }
-}
-
 /*全局设置*/
 html, body, #app {
-  height: 99%;
-}
-
-/*滚动条的宽度*/
-::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-
-/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
-::-webkit-scrollbar-track {
-  width: 6px;
-  background-color: #0d1b20;
-  -webkit-border-radius: 2em;
-  -moz-border-radius: 2em;
-  border-radius: 2em;
-}
-
-/*滚动条的设置*/
-::-webkit-scrollbar-thumb {
-  background-color: #606d71;
-  background-clip: padding-box;
-  min-height: 28px;
-  -webkit-border-radius: 2em;
-  -moz-border-radius: 2em;
-  border-radius: 2em;
-}
-
-/*滚动条移上去的背景*/
-::-webkit-scrollbar-thumb:hover {
-  background-color: #fff;
+  height: 97%;
 }
 </style>
