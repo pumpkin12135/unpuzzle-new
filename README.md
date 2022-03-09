@@ -2,6 +2,7 @@
 异型拼图 新版本  
 后端会源源不断采用新技术  
 前端加入了看板娘 更新了UI  
+前端更新了UI2.0 采用了新拟态的设计风格  
 数据库使用了Redis+Mysql  
 最初版本：https://github.com/pumpkin12135/unpuzzle  
 ### 开发文档
