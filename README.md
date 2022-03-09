@@ -2,7 +2,9 @@
 异型拼图 新版本  
 后端会源源不断采用新技术  
 前端加入了看板娘 更新了UI  
-前端更新了UI2.0 采用了新拟态的设计风格  
+前端更新了UI2.0 采用了新拟态的设计风格对登录和规则页面做了优化  
+  
+![image](https://github.com/pumpkin12135/unpuzzle-new/blob/main/puzzle-vue-pc/src/img/d86076e69235926b0660526e194ee6a.png)
 数据库使用了Redis+Mysql  
 最初版本：https://github.com/pumpkin12135/unpuzzle  
 ### 开发文档
